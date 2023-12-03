@@ -9,7 +9,7 @@ app.use(express.json());
 
 
 app.get( "/", (req, res) => {
-    res.send("<h1>Hello World!</h1>");
+    res.send("<h1>Hello World! render</h1>");
 })
 
 app.post( "/users", async (req, res) => {
